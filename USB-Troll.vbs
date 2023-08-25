@@ -22,6 +22,8 @@ Set http = Nothing
 Dim oPlayer
 Set oPlayer = CreateObject("WMPlayer.OCX")
 
+WScript.Sleep 600000
+
 Do While True
 
 	' Randomize
