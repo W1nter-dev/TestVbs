@@ -25,7 +25,7 @@ Set oPlayer = CreateObject("WMPlayer.OCX")
 Do While True
 
 	' Randomize
-	rand = Int(((900-300+1)*Rnd+300)*1)
+	rand = Int(((900-300+1)*Rnd+300)*1000)
 	' riprodure audio
 	oPlayer.URL = outputPath
 	oPlayer.controls.play 
